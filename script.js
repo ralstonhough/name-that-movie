@@ -183,8 +183,6 @@ function endgame(){
     finalScore.style.opacity = 1;
     finalScore.innerHTML = score;
     message.innerHTML = randomAffirmation;
-    console.log(message);
-    console.log(finalScore);
 };
 
 function timer() {
