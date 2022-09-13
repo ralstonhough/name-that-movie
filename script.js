@@ -211,8 +211,6 @@ startButton.onclick = function() {
 answerBox.addEventListener("keydown", function(e){
     if(e.key == "Enter"){
       console.log(answerBox.value);
-              console.log(answerBox.value.toLowerCase());
-        console.log(correctAnswer.value.toLowerCase());
       if(answerBox.value.toLowerCase() == correctAnswer.toLowerCase()){
         answerBox.value = "";
         score += 1;
